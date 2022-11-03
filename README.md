@@ -1,27 +1,21 @@
-# AngularReactTestProjekt
+# Angular React Testprojekt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+## Was wird in diesem Projekt getestet?
+In dieser Angular Anwendung ist eine React Komponente eingebettet. Dabei kann in der React Komponente
+ein String eingegeben werden, welcher per Knopfdruck in der Angular Komponente angezeigt werden kann.
 
-## Development server
+## Installation
+Um das Projekt ausführen zu können, ist eine Installation von Node.js notwendig, welche über folgenden
+Link heruntergeladen werden kann.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Node.js](https://nodejs.org/en/) 
 
-## Code scaffolding
+Nach der Installation von Node.js muss in dem Verzeichnis von dem Projekt
+der Befehl `npm install` ausgeführt werden, damit die Dependencies installiert werden.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Danach ist das Programm einsatzbereit.
 
-## Build
+## Wie kann das Programm ausgeführt werden?
+Um das Programm auszuführen, muss in dem root Verzeichnis der `ng serve --open` Befehl ausgeführt werden.
+Dieser Befehl öffnet dann einen neuen Tab in dem Standardbrowser mit folgender URL `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
